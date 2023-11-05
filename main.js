@@ -5,7 +5,7 @@ window.onload = function () {
 
 function initializeLiff() {
     liff.init({
-        liffId: "YOUR_LIFF_ID" // Replace with your LIFF ID
+        liffId: "2001498367-1AdqAZvk" // Replace with your LIFF ID
     }).then(() => {
         if (!liff.isLoggedIn()) {
             liff.login(); // Log the user in if they are not logged in
